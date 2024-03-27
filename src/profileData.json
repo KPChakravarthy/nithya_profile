@@ -1,0 +1,39 @@
+{
+  "home": {
+    "leftBar": {
+      "hero": "Nithya Aathreya",
+      "title": "UI/UX Designer",
+      "socials": {
+        "LinkedIn": "https://linkedin.com"
+      },
+      "contactInfo": {
+        "phone": "+91 8880222252",
+        "email": "aathreya28@gmail.com",
+        "location": "Bengaluru, KA, IN",
+        "dob": "28-01-1997"
+      },
+      "resumeLink": "https://google.com"
+    },
+    "rightBar": {
+      "intro": {
+        "title": "What I do",
+        "description": "I'm a passionate UI/UX designer dedicated to crafting seamless and delightful digital experiences. With a blend of creativity, empathy, and technical expertise, I thrive on solving complex user problems and translating them into intuitive interfaces. My journey in UX design has been driven by a deep curiosity about human behavior and a relentless pursuit of innovation. Whether it's through wireframes, prototypes, or user testing, I am committed to ensuring that every interaction leaves a lasting impression. Let's collaborate to create meaningful connections between users and technology, one pixel at a time."
+      },
+      "projects": {
+        "title": "Projects",
+        "articles": [
+          {
+            "name": "The Write Addict",
+            "imageUrl": "",
+            "short": "Crafted from boundless imagination, our project serves as a creative sanctuary, inviting exploration into fantasy, sci-fi wonders, personal narratives, and limitless inspiration."
+          },
+          {
+            "name": "InstaVideo",
+            "imageUrl": "",
+            "short": "It is a Video-on-Demand Dashboard: your personal studio in the cloud. Record, upload, and customise your content. Whether it's resizing or editing, we've got you covered."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+@import 'assets/styles/commonStyles.module';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1, h2, h3, h4, h5, h6, .title-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  margin: 0;
+}
+
+p, span, .body-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  line-height: 1.6rem;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.semi-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+.appSection {
+  display: flex;
+  gap: 50px;
+}
+
+.center-align {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+
+.card {
+  background-color: $bg-contrast;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.small-radius {
+  border-radius: $smallRadius;
+}
+
+.large-radius {
+  border-radius: $largeRadius;
+}
+
+.primary-btn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  font-size: 14px;
+  background-color: $primary;
+  color: $background;
+  border: transparent;
+  border-radius: $smallRadius;
+  padding: 6px 12px;
+  vertical-align: middle;
+  align-items: center;
+  box-shadow: $shadowOut;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+  &:active {
+    box-shadow: $shadowIn;
+  }
+}
