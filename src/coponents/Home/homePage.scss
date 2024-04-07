@@ -1,4 +1,6 @@
 .right-section {
+  width: 100%;
+  overflow-x: hidden;
   padding: 50px 50px 0;
   .title {
     &::before {
@@ -15,7 +17,20 @@
     gap: 50px;
     margin-top: 40px;
     .project-card {
-      padding: 20px;
+      width: 33.33%;
+      .content-section {
+        padding: 20px;
+        .project-title {
+          cursor: pointer;
+        }
+      }
+      .banner {
+        width: 100%;
+      }
+      .read-more {
+        text-align: center;
+        padding: 20px 0;
+      }
     }
   }
 }

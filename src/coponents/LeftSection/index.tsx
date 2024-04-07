@@ -4,12 +4,14 @@ import { ReactComponent as LinkedIn} from '../../assets/svgs/linkedin.svg'
 import { ReactComponent as DownloadIcon} from '../../assets/svgs/download.svg'
 import './leftSection.scss'
 import ContactCard from './ContactCard';
+import AppApiContext from '../../AppContextProvider';
 
-interface LeftBarProps {
-  sectionData: any;
-}
+interface LeftBarProps {}
 
 const LeftSection = (props: LeftBarProps) => {
+  const {appData} = React.useContext(AppApiContext);
+  const sectionData = appData.home.leftBar;
+
   const contactInformation = [
     {
       id: "contact-info-1",
@@ -45,12 +47,12 @@ const LeftSection = (props: LeftBarProps) => {
         {
           contactInformation.map(ci => (
             <React.Fragment key={ci.id}>
-              <ContactCard contact={ci} data={props.sectionData.contactInfo} />
+              <ContactCard contact={ci} data={sectionData.contactInfo} />
             </React.Fragment>
           ))
         }
       </div>
-      <a href={props.sectionData.resumeLink} target="_blank">
+      <a href={sectionData.resumeLink} target="_blank">
         <button className="primary-btn download-cv">
           <DownloadIcon /> Download CV
         </button>

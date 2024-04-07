@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6, .title-font {
 
 p, span, .body-font {
   font-family: "Montserrat", sans-serif;
+  font-size: 14px;
   font-optical-sizing: auto;
   font-weight: 300;
   line-height: 1.6rem;
@@ -87,4 +88,12 @@ a {
   &:active {
     box-shadow: $shadowIn;
   }
+}
+
+.footer-bar {
+  margin: 40px 0;
+}
+
+.primary-color {
+  color: $primary;
 }

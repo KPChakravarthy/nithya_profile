@@ -24,12 +24,12 @@
         "articles": [
           {
             "name": "The Write Addict",
-            "imageUrl": "",
+            "imageUrl": "https://github.com/KPChakravarthy/nithya_profile/blob/main/src/assets/images/TheWriteAddict.jpeg?raw=true",
             "short": "Crafted from boundless imagination, our project serves as a creative sanctuary, inviting exploration into fantasy, sci-fi wonders, personal narratives, and limitless inspiration."
           },
           {
             "name": "InstaVideo",
-            "imageUrl": "",
+            "imageUrl": "https://github.com/KPChakravarthy/nithya_profile/blob/main/src/assets/images/InstaVideo.jpeg?raw=true",
             "short": "It is a Video-on-Demand Dashboard: your personal studio in the cloud. Record, upload, and customise your content. Whether it's resizing or editing, we've got you covered."
           }
         ]

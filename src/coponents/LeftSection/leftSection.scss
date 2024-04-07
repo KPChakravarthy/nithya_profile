@@ -1,5 +1,8 @@
 @import '/src/assets/styles/commonStyles.module';
 .left-container {
+  position: sticky;
+  top: 0px;
+  height: 100%;
   padding: 50px;
   .animated-image {
     margin-top: -95px;
